@@ -1,0 +1,14 @@
+{
+  "title": "JBrowse",
+  "tagline": "Next generation genome browser",
+  "url": "https://jbrowse.org",
+  "baseUrl": "/jb2/",
+  "favicon": "img/favicon.ico",
+  "trailingSlash": true,
+  "onBrokenLinks": "ignore",
+  "organizationName": "GMOD",
+  "projectName": "jbrowse-components",
+  "customFields": {
+    "currentVersion": "v2.17.0"
+  }
+}

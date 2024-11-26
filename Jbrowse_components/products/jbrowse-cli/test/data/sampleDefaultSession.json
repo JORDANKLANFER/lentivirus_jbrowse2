@@ -1,0 +1,15 @@
+{
+  "name": "test new session",
+  "views": [
+    {
+      "id": "823WX",
+      "type": "LinearGenomeView",
+      "tracks": [
+        {
+          "type": "AlignmentsTrack",
+          "configuration": "simple"
+        }
+      ]
+    }
+  ]
+}
