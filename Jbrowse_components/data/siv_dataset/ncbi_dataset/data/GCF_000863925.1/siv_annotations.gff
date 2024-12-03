@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj15501
+#!genome-build-accession NCBI_Assembly:GCF_000863925.1
+##sequence-region NC_001549.1 1 9623
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11723
+NC_001549.1	RefSeq	region	1	9623	.	+	.	ID=NC_001549.1:1..9623;Dbxref=taxon:11723;clone=gri-1;gb-acronym=SIV;gbkey=Src;genome=genomic;isolate=677;mol_type=genomic RNA;nat-host=Cercopithecus aethiops (African green monkey)
+NC_001549.1	RefSeq	long_terminal_repeat	1	688	.	+	.	ID=id-NC_001549.1:1..688;Note=5' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+NC_001549.1	RefSeq	repeat_region	461	588	.	+	.	ID=id-NC_001549.1:461..588;Note=R repeat 5' copy;gbkey=repeat_region
+NC_001549.1	RefSeq	gene	897	5314	.	+	.	ID=gene-SIVgp1;Dbxref=GeneID:1490009;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding;locus_tag=SIVgp1
+NC_001549.1	RefSeq	CDS	897	2197	.	+	0	ID=cds-NP_687035.1;Parent=gene-SIVgp1;Dbxref=GenBank:NP_687035.1,GeneID:1490009;Name=NP_687035.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;locus_tag=SIVgp1;product=Gag-Pol;protein_id=NP_687035.1
+NC_001549.1	RefSeq	CDS	2197	5314	.	+	1	ID=cds-NP_687035.1;Parent=gene-SIVgp1;Dbxref=GenBank:NP_687035.1,GeneID:1490009;Name=NP_687035.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;locus_tag=SIVgp1;product=Gag-Pol;protein_id=NP_687035.1
+NC_001549.1	RefSeq	CDS	897	2438	.	+	0	ID=cds-NP_054369.1;Parent=gene-SIVgp1;Dbxref=GenBank:NP_054369.1,GeneID:1490009;Name=NP_054369.1;gbkey=CDS;gene=gag-pol;locus_tag=SIVgp1;product=gag protein;protein_id=NP_054369.1
+NC_001549.1	RefSeq	sequence_feature	897	5314	.	+	.	ID=id-SIVgp1;Dbxref=GeneID:1490009;Note=pol protein;gbkey=misc_feature;gene=gag-pol;locus_tag=SIVgp1;partial=true
+NC_001549.1	RefSeq	gene	5214	5873	.	+	.	ID=gene-SIVgp2;Dbxref=GeneID:1490005;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding;locus_tag=SIVgp2
+NC_001549.1	RefSeq	CDS	5214	5873	.	+	0	ID=cds-NP_054370.1;Parent=gene-SIVgp2;Dbxref=GenBank:NP_054370.1,GeneID:1490005;Name=NP_054370.1;gbkey=CDS;gene=vif;locus_tag=SIVgp2;product=vif protein;protein_id=NP_054370.1
+NC_001549.1	RefSeq	gene	5683	6039	.	+	.	ID=gene-SIVgp3;Dbxref=GeneID:1490006;Name=vpx;gbkey=Gene;gene=vpx;gene_biotype=protein_coding;locus_tag=SIVgp3
+NC_001549.1	RefSeq	CDS	5683	6039	.	+	0	ID=cds-NP_054371.1;Parent=gene-SIVgp3;Dbxref=GenBank:NP_054371.1,GeneID:1490006;Name=NP_054371.1;gbkey=CDS;gene=vpx;locus_tag=SIVgp3;product=vpx protein;protein_id=NP_054371.1
+NC_001549.1	RefSeq	pseudogene	5993	8449	.	+	.	ID=gene-SIVgp4;Dbxref=GeneID:1490004;Name=tat;gbkey=Gene;gene=tat;gene_biotype=pseudogene;locus_tag=SIVgp4;pseudo=true
+NC_001549.1	RefSeq	exon	8368	8449	.	+	.	ID=id-SIVgp4;Parent=gene-SIVgp4;Dbxref=GeneID:1490004;end_range=8449,.;gbkey=exon;gene=tat;locus_tag=SIVgp4;partial=true;product=tat protein;pseudo=true
+NC_001549.1	RefSeq	sequence_feature	5993	8449	.	+	.	ID=id-SIVgp4-2;Dbxref=GeneID:1490004;Note=tat protein;gbkey=misc_feature;gene=tat;locus_tag=SIVgp4;pseudo=true
+NC_001549.1	RefSeq	pseudogene	6135	8750	.	+	.	ID=gene-SIVgp5;Dbxref=GeneID:1490003;Name=rev1;gbkey=Gene;gene=rev1;gene_biotype=pseudogene;locus_tag=SIVgp5;pseudo=true
+NC_001549.1	RefSeq	sequence_feature	6135	8750	.	+	.	ID=id-SIVgp5;Dbxref=GeneID:1490003;Note=rev protein;gbkey=misc_feature;gene=rev1;locus_tag=SIVgp5;pseudo=true
+NC_001549.1	RefSeq	gene	6202	8766	.	+	.	ID=gene-SIVgp6;Dbxref=GeneID:1490007;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding;locus_tag=SIVgp6
+NC_001549.1	RefSeq	CDS	6202	8766	.	+	0	ID=cds-NP_054372.1;Parent=gene-SIVgp6;Dbxref=GenBank:NP_054372.1,GeneID:1490007;Name=NP_054372.1;gbkey=CDS;gene=env;locus_tag=SIVgp6;product=envelope protein;protein_id=NP_054372.1
+NC_001549.1	RefSeq	gene	8600	9271	.	+	.	ID=gene-SIVgp7;Dbxref=GeneID:1490008;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding;locus_tag=SIVgp7
+NC_001549.1	RefSeq	CDS	8600	9271	.	+	0	ID=cds-NP_054373.1;Parent=gene-SIVgp7;Dbxref=GenBank:NP_054373.1,GeneID:1490008;Name=NP_054373.1;gbkey=CDS;gene=nef;locus_tag=SIVgp7;product=nef protein;protein_id=NP_054373.1
+NC_001549.1	RefSeq	long_terminal_repeat	8937	9623	.	+	.	ID=id-NC_001549.1:8937..9623;Note=3' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+NC_001549.1	RefSeq	repeat_region	9407	9524	.	+	.	ID=id-NC_001549.1:9407..9524;Note=R repeat 3' copy;gbkey=repeat_region
+NC_001549.1	RefSeq	polyA_signal_sequence	9506	9511	.	+	.	ID=id-NC_001549.1:9506..9511;gbkey=regulatory;regulatory_class=polyA_signal_sequence
+###

@@ -1,0 +1,134 @@
+{
+  "assemblies": [
+    {
+      "name": "HIV-1 Reference Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hiv1_genome.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/hiv1_data/hiv1_genome.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/hiv1_data/hiv1_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "HIV-2 Reference Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hiv2_genome.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/hiv2_data/hiv2_genoe.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/hiv2_data/hiv2_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "SIV Reference Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "siv_genome.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/siv_data/siv_genome.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "data/siv_data/siv_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "hiv1-annotations",
+      "name": "HIV-1 Annotations",
+      "description": "Genome annotations for Human Immunodeficiency Virus Type 1 (HIV-1), including coding sequences (CDS), regulatory regions, and key genes.",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/hiv1_data/hiv1_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        }
+      },
+      "index": {
+        "location": {
+          "uri": "data/hiv1_data/hiv1_annotations.sorted.gff.gz.tbi",
+          "locationType": "UriLocation"
+        }
+      }
+    ,
+      "assemblyNames": [
+        "HIV-1 Reference Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "hiv2-annotations",
+      "name": "HIV-2 Annotations",
+      "description": "Genome annotations for Human Immunodeficiency Virus Type 2 (HIV-2), including coding sequences (CDS), regulatory regions, and key genes",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/hiv2_data/hiv2_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        }
+      },
+      "index": {
+        "location": {
+          "uri": "data/hiv1_data/hiv2_annotations.sorted.gff.gz.tbi",
+          "locationType": "UriLocation"
+        }
+      }
+    ,
+      "assemblyNames": [
+        "HIV-2 Reference Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "siv-annotations",
+      "name": "SIV Annotations",
+      "description": "Genome annotations for Simian Immunodeficiency Virus (SIV), including coding sequences (CDS), regulatory regions, and key genes.",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/siv_data/siv_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        }
+       
+      },
+      "index": {
+        "location": {
+          "uri": "data/siv_data/siv_annotations.sorted.gff.gz.tbi",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "SIV Reference Genome"
+      ]
+    }
+  ]
+}
