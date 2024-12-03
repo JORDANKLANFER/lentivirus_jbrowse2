@@ -19,4 +19,4 @@ lerna-debug.log
 .yarn
 .yarnrc
 *.tsbuildinfo
-/Users/jordanklanfer/lentivirus_jbrowse2/Jbrowse_components/data
+Jbrowse_components/data/

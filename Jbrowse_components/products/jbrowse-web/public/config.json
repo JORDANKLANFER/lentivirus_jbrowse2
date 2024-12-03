@@ -82,8 +82,21 @@
     ,
       "assemblyNames": [
         "HIV-1 Reference Genome"
-      ]
-    },
+      ],
+      "renderer": {
+        "type": "SvgFeatureRenderer",
+        "color1": "orange", 
+        "featureTypes": {
+          "gene": "#FF9900",
+          "CDS": "#FF6600",
+          "exon": "#FFCC66",
+          "primer_binding_site": "#33CC33",
+          "polyA_signal_sequence": "#3366FF",
+          "long_terminal_repeat": "#CC33CC"
+        }
+      }
+    }
+    ,
     {
       "type": "FeatureTrack",
       "trackId": "hiv2-annotations",
@@ -105,7 +118,19 @@
     ,
       "assemblyNames": [
         "HIV-2 Reference Genome"
-      ]
+      ], 
+      "renderer": {
+        "type": "SvgFeatureRenderer",
+        "color1": "orange", 
+        "featureTypes": {
+          "gene": "#FF9900",
+          "CDS": "#FF6600",
+          "exon": "#FFCC66",
+          "primer_binding_site": "#33CC33",
+          "polyA_signal_sequence": "#3366FF",
+          "long_terminal_repeat": "#CC33CC"
+        }
+      }
     },
     {
       "type": "FeatureTrack",
@@ -128,7 +153,19 @@
       },
       "assemblyNames": [
         "SIV Reference Genome"
-      ]
+      ], 
+      "renderer": {
+        "type": "SvgFeatureRenderer",
+        "color1": "orange", 
+        "featureTypes": {
+          "gene": "#FF9900",
+          "CDS": "#FF6600",
+          "exon": "#FFCC66",
+          "primer_binding_site": "#33CC33",
+          "polyA_signal_sequence": "#3366FF",
+          "long_terminal_repeat": "#CC33CC"
+        }
+      }
     }
   ]
 }
