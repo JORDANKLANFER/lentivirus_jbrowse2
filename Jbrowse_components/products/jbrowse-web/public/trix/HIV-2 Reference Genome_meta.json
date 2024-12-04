@@ -1,0 +1,26 @@
+{
+  "dateCreated": "2024-12-04T07:54:13.779Z",
+  "tracks": [
+    {
+      "trackId": "hiv2-annotations",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/hiv2_data/hiv2_sorted_annotations.gff.gz",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "HIV-2 Reference Genome"
+  ]
+}

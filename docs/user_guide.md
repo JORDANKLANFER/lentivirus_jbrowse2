@@ -18,9 +18,12 @@
     - install samtools: brew install samtools
     - install bgzip and tabix: brew install htslib
 
-5. Go to Jbrowse_componenets/products/jbrowse-web/public/data and run data download script in your terminal
+5. Go to Jbrowse_componenets/products/jbrowse-web/public and run data download script in your terminal
     - ./fetch_and_process_data.sh 
-    - MAKE SURE YOU ARE IN THE data directory 
+    - MAKE SURE YOU ARE IN THE public directory 
+    - this will populate the data folders as well as create a trix folder in the public directory that is used for text indexing
+    - shoulnt need to run script agin, if you need to make sure to delete all data subfolders and trix folder 
+    - the data and trix files will not be pushed to github because the script is meant to fetch them
 6.  Navigate to jbrowse-components/products/jbrowse-web
 7.  In terminal: yarn start
 8. Now your JBrowse window should pop up at: http://localhost:3000

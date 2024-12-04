@@ -78,14 +78,13 @@
           "uri": "data/hiv1_data/hiv1_sorted_annotations.gff.gz.tbi",
           "locationType": "UriLocation"
         }
-      }
-    ,
+      },
       "assemblyNames": [
         "HIV-1 Reference Genome"
       ],
       "renderer": {
         "type": "SvgFeatureRenderer",
-        "color1": "orange", 
+        "color1": "orange",
         "featureTypes": {
           "gene": "#FF9900",
           "CDS": "#FF6600",
@@ -95,8 +94,7 @@
           "long_terminal_repeat": "#CC33CC"
         }
       }
-    }
-    ,
+    },
     {
       "type": "FeatureTrack",
       "trackId": "hiv2-annotations",
@@ -114,14 +112,13 @@
           "uri": "data/hiv1_data/hiv1_sorted_annotations.gff.gz.tbi",
           "locationType": "UriLocation"
         }
-      }
-    ,
+      },
       "assemblyNames": [
         "HIV-2 Reference Genome"
-      ], 
+      ],
       "renderer": {
         "type": "SvgFeatureRenderer",
-        "color1": "orange", 
+        "color1": "orange",
         "featureTypes": {
           "gene": "#FF9900",
           "CDS": "#FF6600",
@@ -143,7 +140,6 @@
           "uri": "data/siv_data/siv_sorted_annotations.gff.gz",
           "locationType": "UriLocation"
         }
-       
       },
       "index": {
         "location": {
@@ -153,10 +149,10 @@
       },
       "assemblyNames": [
         "SIV Reference Genome"
-      ], 
+      ],
       "renderer": {
         "type": "SvgFeatureRenderer",
-        "color1": "orange", 
+        "color1": "orange",
         "featureTypes": {
           "gene": "#FF9900",
           "CDS": "#FF6600",
@@ -166,6 +162,65 @@
           "long_terminal_repeat": "#CC33CC"
         }
       }
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "HIV-1 Reference Genome-index",
+      "ixFilePath": {
+        "uri": "trix/HIV-1 Reference Genome.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/HIV-1 Reference Genome.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/HIV-1 Reference Genome_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "HIV-1 Reference Genome"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "HIV-2 Reference Genome-index",
+      "ixFilePath": {
+        "uri": "trix/HIV-2 Reference Genome.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/HIV-2 Reference Genome.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/HIV-2 Reference Genome_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "HIV-2 Reference Genome"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "SIV Reference Genome-index",
+      "ixFilePath": {
+        "uri": "trix/SIV Reference Genome.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/SIV Reference Genome.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/SIV Reference Genome_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "SIV Reference Genome"
+      ]
     }
   ]
 }
