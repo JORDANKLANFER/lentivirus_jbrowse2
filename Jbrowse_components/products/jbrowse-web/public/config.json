@@ -26,7 +26,7 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "data/hiv2_data/hiv2_genoe.fna",
+            "uri": "data/hiv2_data/hiv2_genome.fna",
             "locationType": "UriLocation"
           },
           "faiLocation": {
@@ -69,13 +69,13 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/hiv1_data/hiv1_annotations.sorted.gff.gz",
+          "uri": "data/hiv1_data/hiv1_sorted_annotations.gff.gz",
           "locationType": "UriLocation"
         }
       },
       "index": {
         "location": {
-          "uri": "data/hiv1_data/hiv1_annotations.sorted.gff.gz.tbi",
+          "uri": "data/hiv1_data/hiv1_sorted_annotations.gff.gz.tbi",
           "locationType": "UriLocation"
         }
       }
@@ -105,13 +105,13 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/hiv2_data/hiv2_annotations.sorted.gff.gz",
+          "uri": "data/hiv2_data/hiv2_sorted_annotations.gff.gz",
           "locationType": "UriLocation"
         }
       },
       "index": {
         "location": {
-          "uri": "data/hiv1_data/hiv2_annotations.sorted.gff.gz.tbi",
+          "uri": "data/hiv1_data/hiv1_sorted_annotations.gff.gz.tbi",
           "locationType": "UriLocation"
         }
       }
@@ -140,14 +140,14 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/siv_data/siv_annotations.sorted.gff.gz",
+          "uri": "data/siv_data/siv_sorted_annotations.gff.gz",
           "locationType": "UriLocation"
         }
        
       },
       "index": {
         "location": {
-          "uri": "data/siv_data/siv_annotations.sorted.gff.gz.tbi",
+          "uri": "data/siv_data/siv_sorted_annotations.gff.gz.tbi",
           "locationType": "UriLocation"
         }
       },

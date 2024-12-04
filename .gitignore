@@ -19,4 +19,8 @@ lerna-debug.log
 .yarn
 .yarnrc
 *.tsbuildinfo
-Jbrowse_components/data/
+Jbrowse_components/data 
+Jbrowse_components/products/jbrowse-web/public/data/hiv1_data/
+Jbrowse_components/products/jbrowse-web/public/data/hiv2_data/
+Jbrowse_components/products/jbrowse-web/public/data/siv_data/
+Jbrowse_components/products/jbrowse-web/public/data/jbrowse_out/
